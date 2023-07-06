@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+/* Nav Section */
+
 .nav-part{
     background-color: rgb(33, 32, 32);
     padding: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
     color: white;
     font-size: 1.5em;
@@ -19,8 +23,14 @@
  }
 .icon-iteam{
     margin-right: 50px;
-
+    padding-left: 50px;
 }
+.icon-iteam:hover{
+    color: coral;
+}
+
+/* Main 1st Part */
+
 .main-1{
     display: flex;
     justify-content: center;
@@ -34,6 +44,7 @@
 }
 .main-text{
     color: white;
+    margin-right: 20px;
 }
 .main-heading{
     font-weight: 800;
@@ -51,7 +62,15 @@
     border-radius: 5px;
     font-weight: 600;
     font-size: 1.5em;
+    cursor: pointer;
 }
+.btn-1:hover{
+    background-color: antiquewhite;
+    color: #2e2e2e;
+}
+
+
+/* Main 2nd Part */
 
 .main-img{
     width: 600px;
@@ -60,7 +79,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    height: 50vw;
+    height: 45vw;
     margin-top: 200px;
     margin-left: 100px;
 }
@@ -69,9 +88,14 @@
     text-align: center;
     font-size: 60px;
     text-decoration: underline;
+    margin-top: 20px;   
+}
+.main-2-heading:hover{
+    color: coral;
 }
 .main-2-text{
     margin-top: 30px;
+    margin-left: 30px;
 }
 .main-2-para{
     font-size: 50px;
@@ -81,3 +105,82 @@
     font-size: 35px;
     margin-top: 30px;
 }
+
+/* Main 3rd Part */
+
+.box{
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    padding-top: 20%;
+}
+.icon-img{
+    width: 120px;
+}
+.box-1{
+    height: 420px;
+    width: 250px;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    text-align: center;
+    box-shadow: 4px 4px 30px gray;
+    padding: 20px;
+}
+.box-heading{
+    font-weight: 600;
+    font-size: 35px;
+    padding: 15px;
+}
+.box-para{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Footer Part */
+
+.footer-img{
+    width: 150px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    list-style: none;
+    height: 50vw;
+    align-items: center;
+   
+}
+.f-1{
+    height: 50px;
+    width: 300px;
+}
+.f-1 li{
+    font-size: 25px;
+}
+.f-1 p{
+    font-size: 25px;
+}
+.f-1 h3{
+    font-size: 35px;
+}
+.f-1 li:hover{
+    color: coral;
+}
+.f-1 h3:hover{
+    color: coral;
+}
+hr{
+    color: white;
+    width: 50%;
+    margin-top: -60px;
+    margin-left: 25%;
+}
+.footer-box-2{
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
